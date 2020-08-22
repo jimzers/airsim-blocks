@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/.vscode": true,
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Content": true,
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Intermediate": true,
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/airsim": true,
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Plugins/AirSim/Content": true,
+		"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Plugins/AirSim/Intermediate": true
+	}
+}

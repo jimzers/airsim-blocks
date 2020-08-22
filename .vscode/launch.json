@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Blocks (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Blocks Linux Debug Build",
+			"program": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Binaries/Linux/Blocks-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Blocks (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Blocks Linux DebugGame Build",
+			"program": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Binaries/Linux/Blocks-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Blocks (Development)",
+			"request": "launch",
+			"preLaunchTask": "Blocks Linux Development Build",
+			"program": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Binaries/Linux/Blocks",
+			"args": [
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Blocks (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Blocks Linux Shipping Build",
+			"program": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Binaries/Linux/Blocks-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Blocks (Test)",
+			"request": "launch",
+			"preLaunchTask": "Blocks Linux Test Build",
+			"program": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Binaries/Linux/Blocks-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BlocksEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BlocksEditor Linux Debug Build",
+			"program": "/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BlocksEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BlocksEditor Linux DebugGame Build",
+			"program": "/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BlocksEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BlocksEditor Linux Development Build",
+			"program": "/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"
+			],
+			"cwd": "/home/jimzers/Documents/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/jimzers/Documents/UnrealEngine"
+		}
+	]
+}

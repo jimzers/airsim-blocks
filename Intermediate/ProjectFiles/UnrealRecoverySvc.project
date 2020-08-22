@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealRecoverySvc">
+  <File Name="/home/jimzers/Documents/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/jimzers/Documents/UnrealEngine/Engine/Programs/UnrealRecoverySvc/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/home/jimzers/Documents/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jimzers/Documents/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private/UnrealRecoverySvc.cpp" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Debug" />
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc" />
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Shipping" />
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Test" />
+      <General WorkingDirectory="/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

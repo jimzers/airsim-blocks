@@ -1,0 +1,1985 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Blocks Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Mac",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"IOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"Linux",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"TVOS",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks XXX Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks XXX DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks XXX Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks XXX Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Shipping",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blocks XXX Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "Blocks XXX Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Blocks",
+				"XXX",
+				"Test",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Linux",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Debug",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlocksEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "BlocksEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BlocksEditor",
+				"Mac",
+				"Development",
+				"/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Blocks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jimzers/Documents/UnrealEngine"
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Blocks",
+			"Path": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Source/Blocks.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BlocksEditor",
+			"Path": "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Source/BlocksEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
